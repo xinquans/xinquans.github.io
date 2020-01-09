@@ -254,9 +254,9 @@ busuanzi:
 
 # Sidebar Settings
 # ---------------
-#links_title: Links
-#links:
-#Name: url
+links_title: 链接
+links: ''
+Name: 测试
 
 # Follow Me Button
 # follow:
