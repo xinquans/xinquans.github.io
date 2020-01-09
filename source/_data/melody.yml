@@ -16,9 +16,9 @@
 # Main menu navigation
 menu:
   首页: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
+  文章: /archives
+  标签: /tags
+  分类: /categories
   #XXX: /xxx
 
 # Favicon
@@ -232,8 +232,8 @@ since: 2013
 # footer_custom_text:
 
 ICP:
-  enable: false
-  #text:
+  enable: true
+  text: 苏ICP备17058212号-1
 
 # busuanzi count for PV / UV in site
 busuanzi:
