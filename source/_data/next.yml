@@ -78,7 +78,7 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
+    enable: true
     icp: 苏ICP备17058212号-1
     # The digit in the num of gongan beian.
     gongan_id:
@@ -96,7 +96,7 @@ creative_commons:
   license: by-nc-sa
   sidebar: false
   post: false
-  language: zh-CN
+  language: 
 
 
 # ---------------------------------------------------------------
@@ -106,8 +106,8 @@ creative_commons:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
