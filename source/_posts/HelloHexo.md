@@ -8,4 +8,4 @@ photos: "https://cdn.jsdelivr.net/gh/xinquans/obs@master/uPic/starter.mov"
 ---
 hello world！ok。。。test阿尔法维尔
 
-<img src="https://cdn.jsdelivr.net/gh/xinquans/obs@master/img/header.jpg" width = "100" height = "100" div align=right />
+![图片居中测试](https://cdn.jsdelivr.net/gh/xinquans/obs@master/img/header.jpg#pic_center =160x)
