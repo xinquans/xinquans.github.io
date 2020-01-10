@@ -10,5 +10,5 @@ hello world！ok。。。test阿尔法维尔
 
 ![图片居中测试](https://cdn.jsdelivr.net/gh/xinquans/obs@master/img/header.jpg)
 
-  <img width=160px height=160px src="https://cdn.jsdelivr.net/gh/xinquans/obs@master/img/header.jpg" >
+  <img style="width:160px;height:160px;" src="https://cdn.jsdelivr.net/gh/xinquans/obs@master/img/header.jpg" >
 
