@@ -68,13 +68,13 @@ footer:
     # Hexo link (Powered by Hexo).
     enable: true
     # Version info of Hexo after Hexo link (vX.X.X).
-    version: true
+    version: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -167,11 +167,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  #url: https://cdn.jsdelivr.net/gh/xinquans/obs/img/header.jpg
+  url: https://cdn.jsdelivr.net/gh/xinquans/obs/img/header.jpg
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: fasle
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -182,7 +182,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:sinchuan@163.com || envelope
+  E-Mail: mailto:sinchuan@163.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -257,7 +257,7 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: true
+  item_text_total: false
   awl: 4
   wpm: 275
 
@@ -270,10 +270,10 @@ reward_settings:
   # If true, reward will be displayed in every article by default.
   enable: true
   animation: true
-  comment: Donate comment here.
+  comment: 了解更多
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: https://cdn.jsdelivr.net/gh/xinquans/obs/img/wechat.jpg
   #alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
