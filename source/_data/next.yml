@@ -167,7 +167,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://t1.picb.cc/uploads/2020/01/10/krzkrM.th.jpg
+  url: https://cdn.jsdelivr.net/gh/xinquans/obs/img/header.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
