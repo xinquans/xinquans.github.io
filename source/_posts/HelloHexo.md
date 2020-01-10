@@ -7,7 +7,7 @@ description: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初始文章测试初始文章
 photos: "<center>
 		<video id="video"  width="640" height="480" muted controls autoplay="autoplay" preload="auto" >
 		  <source src="https://cdn.jsdelivr.net/gh/xinquans/obs@master/uPic/starter.mov" />
-		  您的浏览器不支持 HTML5 video 标签。
+		  您的浏览器不支持 HTML5 video 标签。 
 		</video>
   </center>"
 ---
