@@ -173,7 +173,7 @@
       {%- if post.photos and post.photos.length %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
           {%- for photo in post.photos %}
-            <div style="margin:0 auto; width:500px; height:180px;"><img src="{{ url_for(photo) }}" itemprop="contentUrl"></div>
+            <div style="text-align:center; margin:0 auto; width:700px; height:160px;"><img src="{{ url_for(photo) }}" itemprop="contentUrl"></div>
           {%- endfor %}
         </div>
       {%- endif %}
