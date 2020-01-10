@@ -47,7 +47,7 @@
 {%- if theme.footer.powered.enable %}
 <div class="powered-by">
 <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>|
+  本站访客数:<span id="busuanzi_value_site_uv"></span><i class="fa fa-thermometer-full" aria-hidden="true"></i>
 </span>
 </div>
   <div class="powered-by">
