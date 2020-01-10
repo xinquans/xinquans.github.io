@@ -257,23 +257,23 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
   awl: 4
   wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true
 
 # Reward (Donate)
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
-  animation: false
-  #comment: Donate comment here.
+  enable: true
+  animation: true
+  comment: 了解更多
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: https://cdn.jsdelivr.net/gh/xinquans/obs/img/wechat.jpg
   #alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
@@ -1028,3 +1028,7 @@ vendors:
 css: css
 js: js
 images: images
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
