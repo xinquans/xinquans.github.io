@@ -171,11 +171,11 @@
 
       {# Gallery support #}
       {%- if post.photos and post.photos.length %}
-        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-          {%- for photo in post.photos %}
+        {#<div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          {%- for photo in post.photos %}#}
             <img src="{{ url_for(photo) }}" itemprop="contentUrl">
-          {%- endfor %}
-        </div>
+        {#  {%- endfor %}
+        </div>#}
       {%- endif %}
 
       {%- if is_index %}
