@@ -270,11 +270,11 @@ reward_settings:
   # If true, reward will be displayed in every article by default.
   enable: true
   animation: true
-  comment: 了解更多
+  #comment: 了解更多
 
 reward:
-  wechatpay: https://cdn.jsdelivr.net/gh/xinquans/obs/img/wechat.jpg
-  #alipay: /images/alipay.png
+  wechatpay: https://cdn.jsdelivr.net/gh/xinquans/obs/img/wechatpay.jpg
+  alipay: https://cdn.jsdelivr.net/gh/xinquans/obs/img/alipay.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
