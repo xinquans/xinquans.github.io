@@ -66,7 +66,7 @@ footer:
 
   powered:
     # Hexo link (Powered by Hexo).
-    enable: false
+    enable: true
     # Version info of Hexo after Hexo link (vX.X.X).
     version: false
 

@@ -50,10 +50,10 @@
   本站访客数:<span id="busuanzi_value_site_uv"></span><i class="fa fa-bar-chart" aria-hidden="true"></i>
 </span>
 </div>
-  <div class="powered-by">
-    {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
-    {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
-  </div>
+  // <div class="powered-by">
+  //   {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
+  //   {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
+  // </div>
 {%- endif %}
 
 {%- if theme.footer.powered.enable and theme.footer.theme.enable %}
