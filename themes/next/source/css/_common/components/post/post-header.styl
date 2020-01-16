@@ -35,6 +35,9 @@
   display: inline-block;
   position: relative;
   vertical-align: top;
+  -webkit-transition: margin 0.2s ease-out;
+  -moz-transition: margin 0.2s ease-out;
+　-khtml-transition: margin 0.2s ease-out;
 
   &::before {
     background: black;
@@ -54,7 +57,8 @@
     visibility: visible;
   }
   &:hover {
-    text-shadow:5px 5px 2px #8C51F0;
+    text-shadow:2px 2px 5px #8C51F0;
+    margin-left: 5px;
   }
 
   .fa {
